@@ -1,0 +1,411 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alfa Slab One", serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding: 40px 0px 80px;
+    background: url("../images/img.burger.banner.png") center top no-repeat;
+}
+.header .menu{
+    padding: 0px 0px 93px;
+}
+.logo-img{
+
+}
+.menu .header-icon{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3d2514;
+    margin: 0px 12px;
+}
+.menu .header-icon .icon-img{
+    width: 3%;
+    font-size: 19px;
+    margin: 0px 7px 0px 0px;
+}
+.menu .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0px 0px 0px 20px;
+    color: #3d2514;
+    font-family: "Bebas Neue", serif;
+}
+.header .banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.header .banner .banner-left h4{
+    font-family: "Bebas Neue", serif;
+    font-size: 22px;
+    font-weight: 600;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+.header .banner .banner-left h4 span{
+    width: auto;
+    padding: 15px;
+    border: 3px dashed #3d2514;
+    display: inline-block;
+    margin: 10px 0px 15px;
+    text-align: center;
+}
+.header .banner .banner-left h1{
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 5px rgb(240, 233, 233);
+    font-family: "Alfa Slab One", serif;
+    line-height: 1.2em;
+}
+.header .banner .banner-left h2{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 3px rgb(231, 218, 218);
+    font-family: "Alfa Slab One", serif;
+    line-height: 1.2em;
+}
+.popular{
+    width: 100%;
+    padding: 80px 0px;
+}
+.popular .card-img{
+    height: 500px;
+}
+.popular .card-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 2px;
+    margin: 20px 20px 0px;
+}
+.popular .card h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 2px;
+    margin: 20px 20px 0px;
+    line-height: 1.2em;
+}
+.popular .icon-img{
+    height: 230px;
+}
+.popular .card{
+    margin: 0px 0px 38px;
+}
+
+.choose {
+    padding: 40px 0px;
+}
+.choose .iner-choose{
+    text-align: center;
+}
+.choose .iner-choose h5{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 2px;
+}
+.choose .iner-choose h5 span{
+    background-color: rgb(223, 129, 5);
+    padding: 10px 30px;
+    margin: 0px 0px 15px;
+    display: inline-block;
+}
+.choose .iner-choose h1{
+    font-size: 41px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: "Alfa Slab One", serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px #fee8b6;
+    line-height: 1.2em;
+}
+.choose .iner-choose p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+.choose-left{
+    text-align: center;
+    padding: 50px 0px;
+}
+.choose-left .card-box .img-card{
+    width: 70%;
+    height: 255px;
+}
+.choose .card-box .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Montserrat", serif;
+}
+.choose .card-box .card-body p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7em;
+  
+}
+.choose .card-box .card-body .btn-primary{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 30px;
+    font-family: "Montserrat", serif;
+    background-color: #df1d1d;
+    text-transform: uppercase;
+}
+.choose .card-box .card-body .btn-primary:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: black;
+}
+
+.discovar{
+    width: 100%;
+    padding: 80px 0px;
+}
+.discovar .discovar-box{
+    margin: 36px 18px;
+}
+.discovar .discovar-box h5{
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Bebas Neue", serif;
+}
+.discovar .discovar-box h1{
+    font-size: 41px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: "Alfa Slab One", serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px #fee8b6;
+    line-height: 1.2em;
+}
+.discovar .discovar-box p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+.card-body img{
+    height: 350px;
+    margin: 15px 0px;
+}
+.discovar .discobar-left{
+    box-shadow: 0px 3px 18px rgb(205 198 198);
+}
+
+.reservation{
+    width: 100%;
+    padding: 80px 0px;
+}
+.reservation .reservation-left{
+    text-align: center;
+    padding: 0px 0px 40px;
+}
+.reservation .reservation-left h5{
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 1px;
+}
+.reservation .reservation-left h1{
+    font-size: 41px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: "Alfa Slab One", serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px #fee8b6;
+    line-height: 1.2em;
+}
+.form{
+    border: 2px solid #949698;
+    margin: 10px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 40px 0px;
+    background: url("../images/img.footer.banner.png");
+}
+.footer-img img{
+
+}
+.footer p{
+   font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #fff;
+    margin: 0px 28px;
+}
+.footer .menu{
+    color: white;
+    font-size: 19px;
+}
+.footer .menu .fa{
+   margin: 0px 10px;
+}
+.footer-icon{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.footer-icon .fa{
+    margin: 0px 10px;
+    font-size: 18px;
+}
+.footer-left{
+    padding: 80px 0px 0px;
+    text-align: center;
+}
+.footer-left P{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+@media (Min-width:320px) and (max-width:480px){
+    .container{
+        width: 90%;
+        margin: 0px  auto;
+    }
+    .header{
+        padding: 0px;
+    }
+    .menu{
+        padding: 0px;
+    }
+    .header .menu{
+        padding: 0px;
+    }
+    .header .logo img{
+        width: 50%;
+    }
+    .menu .header-icon .icon-img{
+        width: 5%;
+    }
+    .menu .header-icon{
+        text-align: left;
+        font-size: 12px;
+    }
+    .menu .navbar .navbar-nav .nav-item .nav-link{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .menu .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.3em;
+    }
+    .header .banner{
+        padding: 40px 0px;
+    }
+    .header .banner .banner-left h4{
+        font-size: 14px;
+    }
+    .header .banner .banner-left h1{
+        font-size: 18px;
+        text-shadow: 2px 2px rgb(240, 233, 233);
+    }
+    .popular{
+        padding: 40px 0px 0px;
+    }
+    .popular .card-title{
+        font-size: 20px;
+    }
+    .popular .card h1{
+        font-size: 30px;
+    }
+    .choose {
+        padding: 20px 0px;
+    }
+    .choose .iner-choose h5 {
+        font-size: 15px;
+    }
+    .choose .iner-choose h1 {
+        font-size: 30px;
+    }
+    .choose .iner-choose p {
+        font-size: 14px;
+    }
+    .choose-left {
+        padding: 20px 0px;
+    }
+    .choose .card-box .card-body h3 {
+        font-size: 20px;
+    }
+    .choose .card-box .card-body p {
+        font-size: 14px;
+    }
+    .choose .card-box .card-body .btn-primary {
+        font-size: 12px;
+    }
+    .discovar {
+        padding: 40px 0px;
+    }
+    .discovar .discovar-box h5 {
+        font-size: 22px;
+    }
+    .discovar .discovar-box h1 {
+        font-size: 30px;
+    }
+    .discovar .discovar-box p {
+        font-size: 14px;
+    }
+    .reservation {
+        padding: 40px 0px;
+    }
+    .reservation .reservation-left h5 {
+        font-size: 20px;
+    }
+
+    .
+    
+    .reservation .reservation-left h1 {
+        font-size: 30px;
+    }
+    .footer p {
+        font-size: 13px;
+    }
+    .footer .menu {
+        font-size: 14px;
+        margin: 7px 15px;
+    }
+    .footer-left{
+        padding: 40px 0px 0px;
+    }
+    .footer-icon .fa {
+        font-size: 15px;
+    }
+} */
